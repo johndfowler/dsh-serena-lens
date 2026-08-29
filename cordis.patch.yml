@@ -1,0 +1,6 @@
+# dsh-serena-lens bundle patch: inserts the lens plugin row into the web
+# profile roster. The node half is a no-op; the browser half
+# (exports "./client") mounts the Serena dashboard panel at load.
+- insert:
+    - id: dsh-serena-lens
+      name: "dsh-serena-lens"

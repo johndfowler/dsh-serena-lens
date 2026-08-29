@@ -1,0 +1,22 @@
+{
+  "name": "dsh-serena-lens",
+  "version": "0.1.0",
+  "description": "Serena dashboard lens for DeepSeek Harness — m4/m5 tabs embedding Serena's tool-call stream inside the GUI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
