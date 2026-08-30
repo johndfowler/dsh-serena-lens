@@ -1,6 +1,6 @@
 {
   "name": "dsh-serena-lens",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Serena dashboard lens for DeepSeek Harness — m4/m5 tabs embedding Serena's tool-call stream inside the GUI",
   "type": "module",
   "main": "lib/index.js",
